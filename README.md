@@ -1,7 +1,5 @@
 # humanize
 
-[![skills.sh](https://skills.sh/b/frzxw/humanize)](https://skills.sh/frzxw/humanize)
-
 A skill that takes the AI tells out of prose.
 
 The instructions live in [skills/humanize/SKILL.md](skills/humanize/SKILL.md): 38 patterns, a detect mode and an edit mode, and a short note on how to apply them in chat and in a repository.
