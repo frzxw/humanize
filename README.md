@@ -1,14 +1,10 @@
 # humanize
 
-[Bahasa Indonesia](README.id.md)
-
 [![skills.sh](https://skills.sh/b/frzxw/humanize)](https://skills.sh/frzxw/humanize)
 
-A skill that takes the AI tells out of prose, in English and Bahasa Indonesia.
+A skill that takes the AI tells out of prose.
 
-Other humanizer skills cover English. This one also covers the failures that show up when a model writes Indonesian: English sentence shapes, empty formal phrases, and verbs buried under "melakukan".
-
-The instructions live in [skills/humanize/SKILL.md](skills/humanize/SKILL.md): 40 patterns, a detect mode and an edit mode, and a short note on how to apply them in chat and in a repository.
+The instructions live in [skills/humanize/SKILL.md](skills/humanize/SKILL.md): 38 patterns, a detect mode and an edit mode, and a short note on how to apply them in chat and in a repository.
 
 ## Install
 
@@ -40,7 +36,7 @@ Cursor also reads `.cursor/skills/humanize` in a project. Codex also reads `~/.a
 
 ## Before and after
 
-English. The facts in the first version are that a billing page shipped, and that people can download the last 12 invoices as PDF.
+The facts in the first version are that a billing page shipped, and that people can download the last 12 invoices as PDF.
 
 Before:
 
@@ -50,30 +46,18 @@ After:
 
 > The new billing page is live. Users can download the last 12 invoices as PDF.
 
-Indonesian. Faktanya sama: halaman tagihan sudah tayang, dan pengguna bisa mengunduh 12 tagihan terakhir.
-
-Before:
-
-> Perlu diketahui bahwa pada akhirnya tim kami telah melakukan peluncuran halaman tagihan baru di mana pengguna dapat melakukan pengunduhan 12 tagihan terakhir dalam rangka untuk meningkatkan pengalaman di era digital saat ini.
-
-After:
-
-> Halaman tagihan baru sudah tayang. Pengguna bisa mengunduh 12 tagihan terakhir.
-
 ## What is different
 
 The first 26 patterns come from [blader/humanizer](https://github.com/blader/humanizer) by Siqi Chen, which distills Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Further patterns come from [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) by Peter Yang.
 
-Six patterns are original here:
+Four patterns are original here:
 
 - 28, over-structuring
 - 35, length that does not match the question
-- 37, Indonesian translation-ese
-- 38, empty Indonesian phrases
-- 39, announcing the work instead of doing it
-- 40, invented specifics
+- 37, announcing the work instead of doing it
+- 38, invented specifics
 
-The Indonesian section is written for Indonesian, in the same way a person writes that language. The skill also says how to use it in a chat reply and in repository text: lead with the decision, keep one topic per message, and keep commit and merge messages free of em dashes.
+The skill also says how to use it in a chat reply and in repository text: lead with the decision, keep one topic per message, and keep commit and merge messages free of em dashes.
 
 ## Contributing
 
@@ -89,7 +73,7 @@ License texts for the two upstream projects are in [skills/humanize/licenses](sk
 
 ## Made by Fariz Wibisono
 
-I write and build in public, in English and Bahasa Indonesia.
+I write and build in public.
 
 - Site: [frzxw.me](https://frzxw.me)
 - X: [@frzwibisono](https://x.com/frzwibisono)
