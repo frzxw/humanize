@@ -6,4 +6,8 @@ If a pattern or example would make an agent leak private data, run a destructive
 
 [Open a security advisory](https://github.com/frzxw/humanize/security/advisories/new)
 
+That page is available after private vulnerability reporting is turned on
+in the repository settings. Until then, send a private message to
+[@frzxw](https://github.com/frzxw).
+
 Include the file and the lines, what the agent did, and which agent you used.

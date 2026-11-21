@@ -85,7 +85,7 @@ Usulan pola, tambahan bahasa, dan laporan bug lewat [CONTRIBUTING.md](CONTRIBUTI
 - Peter Yang, [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop), MIT
 - Kontributor Wikipedia, [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
-Teks lisensi kedua proyek hulu ada di [skills/humanize/licenses](skills/humanize/licenses). Repositori ini berlisensi MIT. Lihat [LICENSE](LICENSE) dan [NOTICE](NOTICE).
+Teks lisensi kedua proyek hulu ada di [skills/humanize/licenses](skills/humanize/licenses). Repositori ini berlisensi MIT. Lihat [LICENSE](LICENSE) dan [NOTICE](NOTICE). Pemberitahuan yang sama ada di [skills/humanize/LICENSE](skills/humanize/LICENSE), jadi salinan hasil instalasi tetap membawanya.
 
 ## Dibuat oleh Fariz Wibisono
 

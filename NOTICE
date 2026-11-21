@@ -3,9 +3,10 @@ Copyright (c) 2026 Fariz Wibisono
 
 This project is released under the MIT License. See LICENSE.
 
-It includes and extends two MIT-licensed works. Their full license texts
-ship inside the skill directory so a copy made by `npx skills add` still
-carries them.
+It includes and extends two MIT-licensed works. `skills/humanize/LICENSE`
+is the project license, copied there so `npx skills add` keeps this
+copyright and permission notice with the skill. The upstream license
+texts are in `skills/humanize/licenses/`.
 
 blader/humanizer
 Copyright (c) 2025 Siqi Chen

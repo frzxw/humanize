@@ -85,7 +85,7 @@ Pattern ideas, language additions, and bug reports go through [CONTRIBUTING.md](
 - Peter Yang, [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop), MIT
 - Wikipedia contributors, [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
-License texts for the two upstream projects are in [skills/humanize/licenses](skills/humanize/licenses). This repository is MIT. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+License texts for the two upstream projects are in [skills/humanize/licenses](skills/humanize/licenses). This repository is MIT. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The same permission notice is in [skills/humanize/LICENSE](skills/humanize/LICENSE), so an install keeps it.
 
 ## Made by Fariz Wibisono
 
