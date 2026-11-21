@@ -1,0 +1,12 @@
+{
+  "globs": ["**/*.md"],
+  "frontMatter": "^---[\\s\\S]*?---\\s*",
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD024": false,
+    // Pattern numbers in SKILL.md are the content. A new list under
+    // each heading would restart them at 1.
+    "MD029": false
+  }
+}

@@ -1,0 +1,32 @@
+name: Bug
+description: A pattern, example, or install step is wrong or unclear.
+title: "fix: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What went wrong
+      description: Quote the line from the skill or the README, and say what a careful edit would do instead.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Paste a short before and after. Keep any fact that was already in the text.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - SKILL.md
+        - README
+        - Install
+        - Evals
+        - Something else
+    validations:
+      required: true

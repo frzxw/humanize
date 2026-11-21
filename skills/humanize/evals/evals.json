@@ -1,0 +1,23 @@
+{
+  "evals": [
+    {
+      "expected_output": "A short plain rewrite that keeps the facts (a dashboard launched, what it does) and drops the staging, sales language, inflated significance, banned words, and the binary contrast. No recap closer, no closing offer.",
+      "files": [],
+      "id": 1,
+      "prompt": "Rewrite this launch note so it reads like a person wrote it: 'We are thrilled to announce the launch of our groundbreaking new dashboard, a pivotal milestone that stands as a testament to our commitment to innovation. Nestled in the heart of our platform, this cutting-edge tool leverages state-of-the-art technology to empower users, streamline workflows, and unlock insights. It is not just a dashboard, it is a new paradigm. In today's fast-paced world, data matters more than ever, and we are excited to embark on this journey with you.'"
+    },
+    {
+      "expected_output": "One or two sentences leading with the answer: yes, clean, plus the one warning because it is the only fact he lacks. No restated question, no walkthrough of how migrations work, no bold headers, no list.",
+      "files": [],
+      "id": 2,
+      "prompt": "A teammate who wrote the code asks in chat: 'did the migration run clean?' You know it ran at 09:12, 41 tables, one warning on an empty legacy table that was expected. Answer him."
+    },
+    {
+      "expected_output": "Indonesian that an Indonesian speaker would write: actor first, plain verbs (membayar, bukan melakukan pembayaran), empty phrases cut (perlu diketahui bahwa, pada akhirnya, dalam rangka untuk, di era digital saat ini, tidak dapat dipungkiri bahwa), no translation-ese structure.",
+      "files": [],
+      "id": 3,
+      "prompt": "Tulis ulang pengumuman ini agar terdengar natural: 'Perlu diketahui bahwa pada akhirnya, tim kami telah melakukan peluncuran fitur pembayaran baru di mana fitur ini adalah sebuah langkah penting dalam rangka untuk meningkatkan pengalaman pengguna di era digital saat ini. Tidak dapat dipungkiri bahwa fitur ini akan melakukan transformasi terhadap cara pengguna melakukan pembayaran.'"
+    }
+  ],
+  "skill_name": "humanize"
+}

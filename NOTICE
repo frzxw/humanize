@@ -1,0 +1,27 @@
+humanize
+Copyright (c) 2026 Fariz Wibisono
+
+This project is released under the MIT License. See LICENSE.
+
+It includes and extends two MIT-licensed works. `skills/humanize/LICENSE`
+is the project license, copied there so `npx skills add` keeps this
+copyright and permission notice with the skill. The upstream license
+texts are in `skills/humanize/licenses/`.
+
+blader/humanizer
+Copyright (c) 2025 Siqi Chen
+https://github.com/blader/humanizer
+License text: skills/humanize/licenses/blader-humanizer-MIT.txt
+
+That project distills Wikipedia's "Signs of AI writing" (WikiProject AI
+Cleanup):
+https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+
+petergyang/no-ai-slop
+Copyright (c) 2026 Peter Yang
+https://github.com/petergyang/no-ai-slop
+License text: skills/humanize/licenses/petergyang-no-ai-slop-MIT.txt
+
+Patterns 28, 35, 37, 38, 39, and 40, the Indonesian material, and the
+section on applying the skill in chat and repositories were written by
+Fariz Wibisono.

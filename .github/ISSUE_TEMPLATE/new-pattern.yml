@@ -1,0 +1,52 @@
+name: New pattern
+description: Propose a tell the skill does not cover yet.
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Pattern name
+      placeholder: Colon reveals
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - A. Staging instead of stating
+        - B. Rhythm by rule
+        - C. Inflation and borrowed authority
+        - D. Formatting by rule
+        - E. Chat and draft leftovers
+        - F. Wrong reader, wrong size
+        - G. Indonesian failures
+        - H. Agent failures
+        - A new section
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Quoted example
+      description: A sentence that shows the tell, and the smallest edit that fixes it.
+    validations:
+      required: true
+  - type: dropdown
+    id: strength
+    attributes:
+      label: How strong is one sighting
+      options:
+        - One sighting is enough to edit
+        - Weak alone. It counts when other tells are in the same passage.
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Closest existing pattern
+      description: Name the pattern this might already be. Say what is different if you still think it should be added.
+    validations:
+      required: true
