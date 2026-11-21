@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pull-requests: write
 
 jobs:
@@ -14,6 +15,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
+        continue-on-error: true
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+
+      - name: Keep a real failure, and allow the known pull request block
+        if: steps.release.outcome == 'failure'
+        uses: actions/checkout@v4
+
+      - name: Check the release branch
+        if: steps.release.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git fetch origin release-please--branches--main
+          parent="$(git rev-parse FETCH_HEAD^)"
+          if [ "$parent" = "${{ github.sha }}" ]; then
+            echo "release-please wrote the release branch from this commit."
+            echo "GitHub blocked the Actions token from opening the pull request."
+            echo "Enable Settings, Actions, General, Workflow permissions: Allow GitHub Actions to create and approve pull requests."
+            exit 0
+          fi
+          echo "release-please failed before it wrote a release branch from this commit."
+          exit 1
