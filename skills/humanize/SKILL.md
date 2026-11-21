@@ -210,6 +210,9 @@ tapestry, realm, beacon, multifaceted, meticulous, intricate,
 paramount, transformative, elevate, embark, supercharge, harness,
 ever-evolving.
 
+A word on that list stays when it is the literal name of a thing,
+such as robust regression. The ban is the empty promotional use.
+
 Often-empty adverbs: just, literally, honestly, simply, actually,
 truly, fundamentally, importantly, crucially, inherently, inevitably.
 Cut when they add nothing.
@@ -222,8 +225,9 @@ order to, going forward, let's dive in.
 ## The portability test
 
 If a sentence could move unchanged to another person, company, or
-product, it is filler. Cut it or replace it with a fact specific to
-this subject. This test catches the sentences the pattern list misses.
+product, check it. Cut it when it adds nothing about this subject.
+Keep it when it states a fact this subject actually has. This test
+catches the sentences the pattern list misses.
 
 ## When not to act
 
