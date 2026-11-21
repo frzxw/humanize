@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-This directory also includes MIT-licensed work by other authors. Their
-copyright notices and permission text are in the licenses folder:
-
-- licenses/blader-humanizer-MIT.txt, Copyright (c) 2025 Siqi Chen
-- licenses/petergyang-no-ai-slop-MIT.txt, Copyright (c) 2026 Peter Yang
