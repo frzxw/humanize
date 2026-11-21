@@ -2,13 +2,11 @@
 name: humanize
 description: >-
   Remove signs of AI-generated writing so prose reads human. Use this
-  skill before sending or publishing any substantial prose: chat replies,
-  documents, reports, PR descriptions, posts, and emails. Use it when
-  editing or reviewing a draft, when writing for a reader who already
-  knows the subject, and when writing in Indonesian, where translation-ese
-  and empty formal phrases are the most common tells. Covers 40 patterns
-  across staging, rhythm, inflation, formatting, chat leftovers,
-  wrong-reader failures, Indonesian failures, and agent failures.
+  skill before sending or publishing chat replies, documents, reports,
+  pull requests, posts, and emails, and when editing a draft for a
+  reader who already knows the subject. Covers 38 patterns across
+  staging, rhythm, inflation, formatting, chat leftovers, wrong-reader
+  failures, and agent failures.
 ---
 
 # Humanize
@@ -173,31 +171,16 @@ sentence.
     one-liner answering a decision that needs evidence. Match the
     length to what the reader must do with the answer.
 36. **Sycophancy and empty agreement.** Praising the question or the
-    idea before answering it ("Great idea!", "Ide bagus!"). Answer
-    first. Agreement means something only when it could have been
-    disagreement.
+    idea before answering it ("Great idea!"). Answer first. Agreement
+    means something only when it could have been disagreement.
 
-## G. Indonesian failures
+## G. Agent failures
 
-37. **Translation-ese.** English sentence structure pasted into
-    Indonesian: "Ini adalah sebuah..." opening every paragraph, "di
-    mana" as the relative pronoun for everything, "melakukan" plus a
-    noun where a plain verb exists ("melakukan pembayaran" for
-    "membayar"), passive di- chains that hide who acts across a whole
-    paragraph. Indonesian puts the actor first and trusts short
-    sentences. Write the sentence an Indonesian speaker would say.
-38. **Empty Indonesian phrases.** "Penting untuk dicatat bahwa", "perlu
-    diketahui bahwa", "tidak dapat dipungkiri bahwa", "pada akhirnya",
-    "di era digital saat ini", "dalam rangka untuk". Cut the phrase and
-    keep the fact after it.
-
-## H. Agent failures
-
-39. **Announcing instead of doing.** A deliverable or reply that
-    narrates planned steps ("Selanjutnya saya akan memeriksa...") where
-    the result belongs. Do the step, then report the result. A plan is
-    the content only when the reader asked for a plan.
-40. **Invented specifics.** A plausible number, name, date, or quote
+37. **Announcing instead of doing.** A deliverable or reply that
+    narrates planned steps ("Next I will check the logs...") where the
+    result belongs. Do the step, then report the result. A plan is the
+    content only when the reader asked for a plan.
+38. **Invented specifics.** A plausible number, name, date, or quote
     filling a gap the source left open. The reader acts on specifics,
     so an invented one costs more than an admitted gap. Write what the
     source shows, and mark the gap as a gap.

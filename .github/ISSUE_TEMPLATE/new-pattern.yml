@@ -22,8 +22,7 @@ body:
         - D. Formatting by rule
         - E. Chat and draft leftovers
         - F. Wrong reader, wrong size
-        - G. Indonesian failures
-        - H. Agent failures
+        - G. Agent failures
         - A new section
     validations:
       required: true

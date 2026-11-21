@@ -12,15 +12,11 @@ A pattern needs all of the following:
 - A quoted example of the tell
 - The edit to make
 - Whether one sighting is enough, or it only counts beside other tells (mark those _weak alone_)
-- The section it belongs in (A through H)
+- The section it belongs in (A through G)
 
 If the idea is a special case of a pattern already in the list, add the example there.
 
-## A new language
-
-Open an issue with the New language template. A language section should name failures that belong to that language, the way section G does for Indonesian. Translating the English list is a start, and the section still needs the failures a native reader actually notices.
-
-The pull request should add the section to `SKILL.md`, add one eval in [skills/humanize/evals/evals.json](skills/humanize/evals/evals.json), and add a before-and-after pair to [README.md](README.md). If you are changing the Indonesian material, update [README.id.md](README.id.md) too.
+The skill stays language-agnostic. Do not add a section for one language. If a tell shows up in more than one language, add it as a general pattern with an English example, plus one eval in [skills/humanize/evals/evals.json](skills/humanize/evals/evals.json).
 
 ## Commit messages
 
@@ -28,7 +24,7 @@ This repo uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.
 
 ```text
 feat: add a pattern for stacked headings
-fix: correct the Indonesian relative-clause example
+fix: correct the relative-clause example
 docs: show the Codex global install path
 ```
 
