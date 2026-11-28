@@ -40,9 +40,9 @@ Copy the [skills/humanize](skills/humanize) folder to the path your agent reads.
 | --- | --- | --- |
 | Claude Code | `.claude/skills/humanize` | `~/.claude/skills/humanize` |
 | Cursor | `.agents/skills/humanize` | `~/.cursor/skills/humanize` |
-| Codex | `.agents/skills/humanize` | `~/.codex/skills/humanize` |
+| Codex | `.agents/skills/humanize` | `~/.agents/skills/humanize` |
 
-Cursor also reads `.cursor/skills/humanize` in a project. Codex also reads `~/.agents/skills/humanize`.
+Cursor also reads `.cursor/skills/humanize` in a project, and `~/.agents/skills/humanize` for every project.
 
 ## What is different
 
