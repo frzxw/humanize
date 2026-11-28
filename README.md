@@ -16,6 +16,8 @@ After:
 
 > The new billing page is live. Users can download the last 12 invoices as PDF.
 
+A shot list for a short install recording is in [docs/demo](docs/demo).
+
 ## Install
 
 From the project you want the skill in, with Node.js 22.20 or later:
