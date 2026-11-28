@@ -4,6 +4,18 @@ A skill that takes the AI tells out of prose.
 
 The instructions live in [skills/humanize/SKILL.md](skills/humanize/SKILL.md): 38 patterns, a detect mode and an edit mode, and a short note on how to apply them in chat and in a repository.
 
+## Before and after
+
+This is a launch note with two facts in it: a billing page is live, and people can download the last 12 invoices as PDF. The second version is the same paragraph after edit mode in the skill. The facts stay. The announcement, the sales language, the contrast, and the closer go.
+
+Before:
+
+> We are thrilled to announce that the new billing page is live, marking a pivotal moment in our journey. Nestled in the heart of the product, this cutting-edge page uses a robust design to empower users, streamline invoice work, and unlock clarity. It is not just a page, it is a clearer way to see invoices. Users can download the last 12 invoices as PDF, highlighting our commitment to transparency. In today's world, that is the real win.
+
+After:
+
+> The new billing page is live. Users can download the last 12 invoices as PDF.
+
 ## Install
 
 From the project you want the skill in, with Node.js 22.20 or later:
@@ -31,18 +43,6 @@ Copy the [skills/humanize](skills/humanize) folder to the path your agent reads.
 | Codex | `.agents/skills/humanize` | `~/.codex/skills/humanize` |
 
 Cursor also reads `.cursor/skills/humanize` in a project. Codex also reads `~/.agents/skills/humanize`.
-
-## Before and after
-
-The facts in the first version are that a billing page shipped, and that people can download the last 12 invoices as PDF.
-
-Before:
-
-> We are thrilled to announce that the new billing page is live, marking a pivotal moment in our journey. It is not just a page, it is a clearer way to see invoices. Users can download the last 12 invoices as PDF.
-
-After:
-
-> The new billing page is live. Users can download the last 12 invoices as PDF.
 
 ## What is different
 
