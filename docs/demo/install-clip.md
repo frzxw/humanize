@@ -7,10 +7,10 @@ About 45 seconds. One terminal, one empty folder, and the README. Node.js 22.20 
 From the empty folder:
 
 ```bash
-npx skills add frzxw/humanize --skill humanize -a cursor -y
+npx --yes skills add frzxw/humanize --skill humanize -a cursor -y
 ```
 
-One agent keeps the clip short. The README command names Claude Code, Cursor, and Codex when you want all three. `-y` skips the questions. If a prompt still appears, stop and retake.
+One agent keeps the clip short. The README command names Claude Code, Cursor, and Codex when you want all three. `--yes` tells npx to install the `skills` package without asking. `-y` skips the questions from that CLI. If another prompt still appears, stop and retake.
 
 ## Order of shots
 
