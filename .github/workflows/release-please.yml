@@ -23,7 +23,7 @@ jobs:
 
       - name: Keep a real failure, and allow the known pull request block
         if: steps.release.outcome == 'failure'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check the release branch
         if: steps.release.outcome == 'failure'
